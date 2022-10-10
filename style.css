@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     background: border-box;
+    line-height: 25px;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -11,6 +12,10 @@
     background-color: #1e90ff;
     color: white;
     text-decoration: none;
+}
+
+ul {
+    list-style: none;
 }
 
 /* HEADER */
@@ -127,9 +132,9 @@ header {
     }
 
     .row {
-        width: 30%;
-        height: 500px;
-        background-color: red;
+        width: 25%;
+        height: 700px;
+        background-color: lightpink;
         border: 1px solid black;
     }
 
@@ -137,4 +142,36 @@ header {
         text-align: center;
         padding: 10px 0;
         border-bottom: 1px solid black;
+    }
+
+    .column-structure-text {
+        padding-top: 25px;
+        padding-left: 20px;
+    }
+
+    .column-structure-text > h4 {
+        padding: 15px 0;
+    }
+
+    .grey {
+        color: grey;
+    }
+
+    .tipologia {
+        margin-right: 15px;
+        padding: 50px 0;
+    }
+
+    .separe {
+        padding: 20px 0;
+    }
+
+    .tipologia .box {
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    .box a {
+        text-decoration: none;
+        color: white;
     }
