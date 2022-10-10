@@ -6,8 +6,9 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-
 /* HEADER */
+/* APPUNTI: L'header deve essere fixed e contenere un hover:underline sotto per i nav */
+
 header {
     height: 80px;
     background-image: url(img/logo-small.png);
@@ -32,4 +33,44 @@ header {
 
     .container nav:first-child{       
         padding-left: 7%;
+    }
+
+/* JUMBOTRON */
+/* APPUNTI: Forse da cambiare l'altezza in vh */
+.jumbotron {
+    height: 500px;
+    /* DEGBUG */
+    background-color: lightskyblue;
+
+}
+
+    .h1 {
+        height: 150px;
+        margin: 0 20%;
+        background-color: red;
+    }
+
+    .h1 > h1 {
+        font-size: 75px;
+    }
+
+    .jumbo-container {
+        height: calc(100% - 100px);
+        margin: 0 20%;
+        background: blue;
+    }
+
+    .paragrafo {
+        height: 400px;
+        width: 35%;
+        background-color: blueviolet;
+    }
+
+    .paragrafo > p {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    #Annulla {
+        padding: 50px 0;
     }
