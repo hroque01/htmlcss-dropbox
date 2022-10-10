@@ -49,6 +49,7 @@ header {
     }
 /* JUMBOTRON */
 /* APPUNTI: Forse da cambiare l'altezza in vh */
+/* APPUNTI: La freccia deve portare nella schermata sotto "trova il piano business che fa per te" */
 .jumbotron {
     height: 650px;
     background-color: #b4c8e1;
@@ -97,3 +98,24 @@ header {
         .img > img {
             width: 120%;
         }
+
+/* PIANO BUSINESS */
+.piano-business {
+    height: 1000px;
+    margin: 5% 20%;
+     /* DEBUG */
+    background-color: lightgrey;
+}
+
+    .piano-business > h2 {
+        margin-bottom: 5%;
+        font-size: 40px;
+    }
+
+    #mensile > i {
+        color: #1e90ff;
+    }
+
+    #mensile {
+        padding-right: 50px;
+    }
