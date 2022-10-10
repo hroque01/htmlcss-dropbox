@@ -119,3 +119,22 @@ header {
     #mensile {
         padding-right: 50px;
     }
+
+    .col {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 5%;
+    }
+
+    .row {
+        width: 30%;
+        height: 500px;
+        background-color: red;
+        border: 1px solid black;
+    }
+
+    .icons {
+        text-align: center;
+        padding: 10px 0;
+        border-bottom: 1px solid black;
+    }
