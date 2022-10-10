@@ -1,0 +1,35 @@
+/* REGOLE GENERALI */
+* {
+    margin: 0;
+    padding: 0;
+    background: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/* HEADER */
+header {
+    height: 80px;
+    background-image: url(img/logo-small.png);
+    background-repeat: no-repeat;
+    background-position: top 25px left 10px;
+    /* DEBUG */
+    background-color: lightgrey;
+}
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        padding: 30px 10px;
+        text-decoration: none;
+    }
+
+    nav a{
+        padding-left: 30px;
+        text-decoration: none;
+        color: black;
+    }
+
+    .container nav:first-child{       
+        padding-left: 7%;
+    }
