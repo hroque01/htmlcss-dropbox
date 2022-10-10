@@ -6,6 +6,13 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+.box {
+    padding: 10px 20px;
+    background-color: #1e90ff;
+    color: white;
+    text-decoration: none;
+}
+
 /* HEADER */
 /* APPUNTI: L'header deve essere fixed e contenere un hover:underline sotto per i nav */
 
@@ -14,8 +21,6 @@ header {
     background-image: url(img/logo-small.png);
     background-repeat: no-repeat;
     background-position: top 25px left 10px;
-    /* DEBUG */
-    background-color: lightgrey;
 }
 
     .container {
@@ -34,43 +39,61 @@ header {
     .container nav:first-child{       
         padding-left: 7%;
     }
+    
+    .container nav:last-child {
+        padding-right: 2%;
+    }
 
+    #accedi {
+        padding-right: 10px;
+    }
 /* JUMBOTRON */
 /* APPUNTI: Forse da cambiare l'altezza in vh */
 .jumbotron {
-    height: 500px;
-    /* DEGBUG */
-    background-color: lightskyblue;
+    height: 650px;
+    background-color: #b4c8e1;
 
 }
 
-    .h1 {
-        height: 150px;
+    .h1-container {
+        height: 280px;
         margin: 0 20%;
-        background-color: red;
     }
 
-    .h1 > h1 {
-        font-size: 75px;
-    }
+        .h1-container > h1 {
+            padding-top: 50px;
+            font-size: 75px;
+        }
 
     .jumbo-container {
-        height: calc(100% - 100px);
+        height: calc(100% - 300px);
         margin: 0 20%;
-        background: blue;
+        display: flex;
     }
 
-    .paragrafo {
-        height: 400px;
-        width: 35%;
-        background-color: blueviolet;
-    }
+        .text-right {
+            height: 350px;
+            width: 30%;
+        }
 
-    .paragrafo > p {
-        padding-top: 50px;
-        padding-bottom: 50px;
-    }
+        .text-right > p {
+            padding-bottom: 50px;
+        }
 
-    #Annulla {
-        padding: 50px 0;
-    }
+        #Annulla {
+            padding: 50px 0;
+        }
+
+        #Freccia {
+            font-size: 50px;
+            padding: 10px 0;
+        }
+
+        .img {
+            height: 400px;
+            width: 55%;
+        }
+
+        .img > img {
+            width: 120%;
+        }
