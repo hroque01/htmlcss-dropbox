@@ -264,7 +264,11 @@ header {
 
             #txt-partner {
                 width: 25%;
-                margin-right: 10%;
+                margin-right: 8%;
+            }
+
+            #txt-partner h3 {
+                margin-right: 15%;
             }
 
             #txt-partner > p {
