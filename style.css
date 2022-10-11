@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     background: border-box;
-    line-height: 25px;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -14,12 +13,9 @@
     text-decoration: none;
 }
 
-ul {
-    list-style: none;
-}
-
 /* HEADER */
 /* APPUNTI: L'header deve essere fixed e contenere un hover:underline sotto per i nav */
+/* APPNTI: hover sui bottoni blue che andando sopra con il mouse si schiarisce il background */
 
 header {
     height: 80px;
@@ -84,6 +80,7 @@ header {
 
         .text-right > p {
             padding-bottom: 50px;
+            line-height: 20px;
         }
 
         #Annulla {
@@ -91,8 +88,7 @@ header {
         }
 
         #Freccia {
-            font-size: 50px;
-            padding: 10px 0;
+            font-size: 50px;        
         }
 
         .img {
@@ -108,8 +104,6 @@ header {
 .piano-business {
     height: 1000px;
     margin: 5% 20%;
-     /* DEBUG */
-    background-color: lightgrey;
 }
 
     .piano-business > h2 {
@@ -133,8 +127,7 @@ header {
 
     .row {
         width: 25%;
-        height: 700px;
-        background-color: lightpink;
+        height: 950px;
         border: 1px solid black;
     }
 
@@ -149,29 +142,62 @@ header {
         padding-left: 20px;
     }
 
-    .column-structure-text > h4 {
-        padding: 15px 0;
-    }
+        .column-structure-text > h4 {
+            padding: 15px 0;
+        }
 
-    .grey {
-        color: grey;
-    }
+        .grey {
+            color: grey;
+        }
 
-    .tipologia {
-        margin-right: 15px;
-        padding: 50px 0;
-    }
+        .lista-offerte {
+            margin-right: 15px;
+            padding-top: 50px;
+            padding-bottom: 30px;
+            line-height: 20px;
+        }
 
-    .separe {
-        padding: 20px 0;
-    }
+        .separe {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding-right: 20px;
+            padding-bottom: 20px;
+        }
 
-    .tipologia .box {
-        margin-top: 30px;
-        margin-bottom: 20px;
-    }
+        .center {
+            display: flex;
+            align-items: flex-start;
+        }
 
-    .box a {
-        text-decoration: none;
-        color: white;
-    }
+        .text-alignment {
+            padding-left: 10px;
+        }
+
+        .box a {
+            text-decoration: none;
+            color: white;
+        }
+        
+        .try-button {
+            margin-right: 20px;
+            margin-bottom: 30px;
+        }
+
+        .try-button .box {
+            margin-bottom: 30px;
+        }
+
+        .line {
+            width: 50px;
+            height: 10px;
+            border-top: 1px solid grey;
+        }
+        
+        #punti-salienti {
+            margin: 30px 0;
+        }
+
+        .color-icons {
+            color: #1e90ff;
+        }
