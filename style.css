@@ -399,3 +399,18 @@ header {
         filter: brightness(0) invert(1);
     }
    
+    .container-agency-info {
+        width: 90%;
+        height: 600px;
+        margin:5% 5% ;
+
+    }
+
+    .container-agency-info img {
+        width: 50% ;
+        margin-bottom: 10%;
+    }
+
+    .container-agency-info p {
+        margin: 10% 0;
+    }
