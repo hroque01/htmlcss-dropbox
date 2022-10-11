@@ -246,29 +246,32 @@ header {
 /* PARTNER */
     .info {
         max-width: 100%;
-        margin: 10% 0;
-        height: 500px;
+        margin-top: 10%;
+        margin-bottom: 20%;
+        height: 600px;
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
 
         .partner {
-            width: 60%;
+            width: 70%;
             height: 500px;
         }
 
             .partner > img {
                 width: 100%;
+                margin: 0;
+                padding: 0;
             }
 
             #txt-partner {
                 width: 30%;
-                margin-right: 5%;
+                margin-left: 5%;
             }
 
             #txt-partner h3 {
-                margin-right: 10%;
+                margin-right: 15%;
             }
 
             #txt-partner > p {
@@ -280,6 +283,7 @@ header {
                 border: 1px solid black;
                 background-color: white;
                 color: black;
+                text-align: center;
             }
 
                 .box a {
