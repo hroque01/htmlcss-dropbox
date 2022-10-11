@@ -17,6 +17,33 @@ p {
     line-height: 20px;
 }
 
+.lightgreen {
+    background-color: lightgreen;
+}
+
+.brown {
+    background-color: brown;
+}
+
+.lightblue {
+    background-color: #1e90ff;
+}
+
+.red {
+    background-color: red;
+}
+
+.cadetblue {
+    background-color: cadetblue;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.yellow {
+    background-color: darkgoldenrod;
+}
 /* HEADER */
 /* APPUNTI: L'header deve essere fixed e contenere un hover:underline sotto per i nav */
 /* APPNTI: hover sui bottoni blue che andando sopra con il mouse si schiarisce il background */
@@ -328,19 +355,17 @@ header {
         width: 100%;
         height: 600px;
         display: flex;
-        background-color: beige;
     }
 
     .grid1 {
         width: 33%;
         height: 600px;
-        background-color: coral;
     }
 
     .agency-info {
         width: 34%;
         height: 600px;
-        background-color: chartreuse;
+        background-color: #F5F5F5 ;
     }
 
     .grid2 {
@@ -348,3 +373,29 @@ header {
         height: 600px;
         background-color: darksalmon;
     }
+
+    .row-agency {
+        width: 100%;
+        height: 300px;
+        display: flex;
+    }
+
+    .agency {
+        width: 50%;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .invert {
+        width: 50%;
+        filter: brightness(0) invert(1);
+    }
+
+    #florida {
+        width: 50%;
+        height: 30px;
+        padding-top: 135px;
+        filter: brightness(0) invert(1);
+    }
+   
