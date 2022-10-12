@@ -382,6 +382,7 @@ header {
             width: 34%;
             height: 600px;
             background-color: #F5F5F5 ;
+            overflow-y: auto;
         }
 
         .grid2 {
@@ -399,8 +400,13 @@ header {
         .agency {
             width: 50%;
             height: 300px;
+            box-sizing: border-box;
             display: flex;
             justify-content: center;
+        }
+
+        .agency:hover {
+            border: 12px solid #F5F5F5;
         }
 
         .invert {
