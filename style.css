@@ -329,6 +329,10 @@ header {
                 text-align: center;
             }
 
+            #txt-partner > .box:hover {
+                background-color: lightgrey;
+            }
+
                 #txt-box {
                     color: black;
                 }
@@ -519,3 +523,12 @@ footer {
         margin-left: 5%;
         color: lightgrey;
     }
+
+    .container-footer a:hover {
+        text-decoration: underline;
+    }
+
+    #box-prova-gratuita:hover {
+        background-color: lightgrey;
+    }
+    
