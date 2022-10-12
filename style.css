@@ -241,36 +241,40 @@ header {
         height: 250px;
         margin-top: 5%;
         border: 1px solid lightgrey;
-        position: relative;
+
     }
 
-        .enterprise > h3{
+        .enterprise-alignment {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .enterprise-txt > h3{
             width: 10%;
             height: 50px;
-            margin: 0 15px;
+            margin: 0 25px;
             margin-top: 25px;
             margin-bottom: 5px;
             text-align: center;
         }
 
-        .enterprise > h4 {
+        .enterprise-txt > h4 {
             width: 25%;
             height: 50px;
             margin: 0 25px;
         }
 
-        .enterprise > p {
+        .enterprise-txt > p {
             width: 50%;
             height: 50px;
             margin: 0 25px;
             line-height: 20px;
         }
 
-        .enterprise > .box {
-            width: 180px;
-            position: absolute;
-            top: 60px;
-            right: 20px;
+        .enterprise-alignment > .box {
+            margin: 2%;
+            height: 20px;
+            text-align: center;
         }
   
 /* PARTNER */
