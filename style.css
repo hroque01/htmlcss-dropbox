@@ -8,7 +8,7 @@
 
 .box {
     padding: 10px 20px;
-    background-color: #1e90ff;
+    background-color: #0061ff;
     color: white;
     text-decoration: none;
 }
@@ -22,31 +22,34 @@ p {
 }
 
 .lightgreen {
-    background-color: lightgreen;
+    background-color: #a2d39b;
 }
 
 .brown {
-    background-color: brown;
+    background-color: #61082b;
 }
 
 .lightblue {
-    background-color: #1e90ff;
+    background-color: #0093ce;
 }
 
 .red {
-    background-color: red;
+    background-color: #ff1c1c;
 }
 
+.red-dark {
+    background-color: #d5001f;
+}
 .cadetblue {
-    background-color: cadetblue;
+    background-color: #b4d0e7;
 }
 
 .blue {
-    background-color: blue;
+    background-color: #0d2481;
 }
 
 .yellow {
-    background-color: darkgoldenrod;
+    background-color: #ffd830;
 }
 /* HEADER */
 /* APPUNTI: L'header deve essere fixed e contenere un hover:underline sotto per i nav */
@@ -97,7 +100,7 @@ header {
 .jumbotron {
     padding-top: 5%;
     height: 650px;
-    background-color: #b4c8e1;
+    background-color: #b4d0e7;
 }
 
     .h1-container {
@@ -494,6 +497,7 @@ footer {
 }
 
     .upside {
+        margin: 0%  10%;
         padding: 5% 0;
         display: flex;
         justify-content: space-around;
@@ -515,12 +519,12 @@ footer {
     }
 
     footer .line {
-        margin-left: 5%;
+        margin-left: 260px;
     }
 
     .lingua {
         margin-top: 1%;
-        margin-left: 5%;
+        margin-left: 260px;
         color: lightgrey;
     }
 
@@ -531,4 +535,3 @@ footer {
     #box-prova-gratuita:hover {
         background-color: lightgrey;
     }
-    
